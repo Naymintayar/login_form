@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1345px;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	height: 150px;
+	background: silver;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 10px gray;
+}
+.menu{
+	width: 100%;
+	height: 35px;
+	background: #555;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 10px gray;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	width: 150px;
+	height: 25px;
+	background: silver;
+	float: left;
+	margin-left: 85px;
+	margin-right: 20px;
+	margin-top: 5px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 25px;
+}
+.menu ul li:hover{
+	box-shadow: 0px 0px 10px lightgray;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	text-shadow: 0px 0px 10px blue;
+}
+.contant{
+	width: 100%;
+	background: #928b9c;
+	border: 1px dotted gray;
+	box-shadow: 0px 0px 10px;
+	margin-bottom: 5px;
+}
+.profile_info{
+	width: 90%;
+	background: #a0a4a1;
+	border: 0.1px dotted #a0a4a1;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 10px;
+}
+.info{
+	width: 90%;
+	border: 0.1px dotted #a0a4a1;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.info h2{
+	text-align: center;
+	text-decoration: dotted underline blue;
+}
+.info input[type="button"]{
+	margin-left: 900px;
+}
+.footer{
+	width: 100%;
+	height:150px;
+	background: silver;
+}

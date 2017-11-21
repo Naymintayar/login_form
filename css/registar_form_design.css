@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.container{
+	width: 1345px;
+	margin: auto;
+}
+
+
+/* ##### header #####*/
+.header{
+	width: 100%;
+	height: 150px;
+	background: url(../resources/bgforcp.gif);
+	box-shadow: 0px 0px 10px;
+	background-size: 10% 10%;
+	margin-bottom: 7px;
+}
+.header h1{
+	text-align: center;
+	line-height: 150px;
+	color: silver;
+	font-size: 50px;
+	text-shadow: -5px -10px 5px;
+}
+/* ##### /header #####*/
+
+
+
+/* ##### menu #####*/
+.menu{
+	width: 100%;
+	height: 35px;
+	background: #555;
+	box-shadow: 0px 0px 10px;
+	margin-bottom: 7px;
+	line-height: 25px;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	width: 120px;
+	float: left;
+	background: silver;
+	margin-left: 130px;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 5px;
+	box-shadow: 0px 0px 10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+.menu ul li:hover{
+	box-shadow: none;
+}
+.menu ul li a:hover{
+	text-shadow: 0px 0px 30px;
+}
+/* ##### /menu #####*/
+
+
+/* ##### contant #####*/
+.contant{
+	width: 98%;
+	height: 600px;
+	margin: auto;
+	border: 1px solid #afa9a9;
+	border-radius: 10px;
+	background: linear-gradient(#bab6b6,#afa9a9);
+	box-shadow: 0px 0px 40px;
+}
+.reg_body{
+	width:90%;
+	height: 580px;
+	border:1px solid #afa9a9;
+	border-radius: 10px;
+	box-shadow: 0px 0px 50px;
+	margin-top: 10px;
+	margin-left: 60px;
+	background: #928b9c;
+}
+.beauty_left{
+	width: 20%;
+	float: left;
+}
+.beauty_left img{
+	margin-left: 6px;
+}
+
+
+/* ////////////////////////// */
+/* ////// Registar Area //////*/
+/* ////////////////////////// */
+.reg_form{
+	width: 60%;
+	height: 550px;
+	float: left;
+	background: #555;
+	margin-top: 15px;
+	border-radius: 20px;
+	box-shadow:-5px -5px 10px;
+}
+.reg_table{
+	width: 90%;
+	height: 510px;
+	border: 5px solid #a0a4a1;
+	border-radius: 10px 100px 10px 100px;
+	margin-top: 15px;
+	margin-left: 30px;
+	background: silver;
+	box-shadow: -20px -5px 20px;
+}
+.reg_table h1{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-decoration: dotted underline;
+}
+.what_form{
+	width: 40%;
+	float: left;
+	margin-top: 10px;
+	font-size: 20px;
+	border: 1px solid rgba(63,65,63,0.5);
+	line-height: 35px;
+}
+.what_form ul{
+	list-style: none;
+}
+.what_form ul li{
+	border-bottom: 1px solid rgba(63,65,63,0.5);
+	height: 35px;
+	padding-left: 10px;
+}
+.fill_form{
+	width: 59%;
+	float: left;
+	margin-top: 10px;
+	border: 1px solid rgba(63,65,63,0.5);
+}
+.fill_form ul{
+	list-style: none;
+}
+.fill_form ul li{
+	border-bottom: 1px solid rgba(63,65,63,0.5);
+	height: 35px;
+	line-height: 35px;
+}
+.fill_form input[type="text"],input[type="password"]{
+	margin-left: 10px;
+	width: 75%;
+	height: 23px;
+	border: none;
+	border-radius: 5px;
+}
+.fill_form select[type="select"],input[type="checkbox"]{
+	margin-left: 10px;
+}
+.reg_table input[type="button"],input[type="reset"],input[type="submit"]{
+	width: 100px;
+	height: 35px;
+	margin-left: 80px;
+	margin-top: 10px;
+	border:none;
+	border-radius: 5px;
+}
+.reg_table a{
+	text-decoration: none;
+	color: black;
+}
+.reg_table input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{
+	box-shadow: -5px -3px 20px blue;
+	color: blue;
+	font-size: 14px;
+}
+/* ////////////////////////// */
+/* ////// Registar Area //////*/
+/* ////////////////////////// */
+
+
+
+.beauty_right{
+	width: 20%;
+	float: left;
+}
+.beauty_right img{
+	margin-left: 3px;
+}
+/* ##### /contant #####*/
